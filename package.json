@@ -1,23 +1,23 @@
 {
-  "name": "task-app",
+  "name": "task-manager",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/coanjos/node-task-app.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/coanjos/node-task-app/issues"
-  },
-  "homepage": "https://github.com/coanjos/node-task-app#readme",
   "dependencies": {
-    "mongodb": "^3.3.3",
-    "mongoose": "^5.7.7"
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.16",
+    "validator": "^10.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
   }
 }
